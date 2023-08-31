@@ -832,6 +832,10 @@
   .transfers__link svg path {
     fill: var(--blue3-color);
   }
+  
+  .transfers__link:focus {
+    width: 99px;
+  }
 
   .transfers__right {
     padding: 9px;
