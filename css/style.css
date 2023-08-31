@@ -565,6 +565,7 @@ body {
 
 .transfers__link svg {
   width: 32px;
+  outline: none;
 }
 
 .transfers__link svg path {
@@ -578,7 +579,7 @@ body {
   stroke: var(--white-color);
 }
 
-.transfers_link:hover svg path {
+.transfers__link:hover svg path {
   stroke: var(--blue3-color);
   transform: scaleX(1.2);
 }
