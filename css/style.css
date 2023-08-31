@@ -572,6 +572,7 @@ body {
   position: relative;
   transition: all 0.3s ease-in-out;
   width: 28px;
+  outline: none;
 }
 
 .transfers__link:focus svg path {
